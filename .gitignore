@@ -1,0 +1,2 @@
+# nao enviar o .bat para o github, pois ele contem caminhos locais do computador do usuario.
+*.bat

@@ -2,11 +2,14 @@
 setlocal
 chcp 65001 >nul
 
+set "TOOLCHAIN=C:\Users\adils\AppData\Local\Arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\bin"
+set "AVRDUDE=C:\Users\adils\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe"
+set "AVRCONF=C:\Users\adils\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf"
 
-@REM  seus caminhos podem variar dependendo da instalação do Arduino IDE. Ajuste conforme necessário.
-set "TOOLCHAIN=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin"
-set "AVRDUDE=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude.exe"
-set "AVRCONF=C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf"
+@REM  @REM  seus caminhos podem variar dependendo da instalação do Arduino IDE. Ajuste conforme necessário.
+@REM  set "TOOLCHAIN=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin"
+@REM  set "AVRDUDE=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude.exe"
+@REM  set "AVRCONF=C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf"
 
 set "PORT=COM3"
 
